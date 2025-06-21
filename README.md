@@ -1,4 +1,4 @@
-<!-- Badges: build your brand at the top -->
+![image](https://github.com/user-attachments/assets/bd491dd1-41e9-4952-816d-399953c211d5)<!-- Badges: build your brand at the top -->
 [![GitHub stars](https://img.shields.io/github/stars/hemathens/kaggle-projects?style=social)](https://github.com/hemathens/kaggle-projects/stargazers)
 [![Kaggle Profile](https://img.shields.io/badge/Kaggle-hem%20ajit%20patel-20BEFF?logo=kaggle)](https://www.kaggle.com/hemajitpatel)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hem%20Ajit%20Patel-0A66C2?logo=linkedin)](https://www.linkedin.com/in/hem-patel19)
@@ -22,12 +22,12 @@ Welcome! This repo houses my top Kaggle notebooks—complete with data explorati
 
 ## 🚀 Projects
 
-| #  | Project                     | Description                                      | Kaggle Link                                             |
+| #  | Notebook                    | Description                                      | Kaggle Link                                             |
 |----|-----------------------------|--------------------------------------------------|---------------------------------------------------------|
 | 1  | 🧮 **Digits Prediction**     | Classify handwritten digits (MNIST).             | [Notebook](https://www.kaggle.com/hemajitpatel/digits-prediction-hem) |
 | 2  | 🏠 **House Price Prediction** | Predict house prices with regression models.      | [Notebook](https://www.kaggle.com/hemajitpatel/house-price-hem)       |
 | 3  | 🚢 **Titanic Survival**      | Who survived the Titanic? Feature engineering + models. | [Notebook](https://www.kaggle.com/hemajitpatel/titanic-hem)           |
-
+| 3  | 🚢 **Heads or Tails**      | Predict heads or tail from a section of an image | [Notebook](https://www.kaggle.com/code/hemajitpatel/heads-or-tails-hem)           |
 ---
 
 ## 📁 Datasets
@@ -36,6 +36,7 @@ All data come from Kaggle competitions.
 - **Digits (MNIST)**: built-in in Scikit-learn  
 - **House Prices**: [Download CSV](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)  
 - **Titanic**: [Download CSV](https://www.kaggle.com/c/titanic/data)
+- **Heads or Tails**: [Download CSV](https://www.kaggle.com/competitions/heads-or-tails-image-classification/data)
 
 > **Note**: Due to GitHub size limits, raw CSVs are not included here—please follow the links above.
 
