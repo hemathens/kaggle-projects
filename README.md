@@ -1,54 +1,62 @@
+<!-- Badges: build your brand at the top -->
+[![GitHub stars](https://img.shields.io/github/stars/hemathens/kaggle-projects?style=social)](https://github.com/hemathens/kaggle-projects/stargazers)
+[![Kaggle Profile](https://img.shields.io/badge/Kaggle-hem%20ajit%20patel-20BEFF?logo=kaggle)](https://www.kaggle.com/hemajitpatel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hem%20Ajit%20Patel-0A66C2?logo=linkedin)](https://www.linkedin.com/in/hem-patel19)
+[![GitHub](https://img.shields.io/badge/GitHub-hemathens-181717?logo=github)](https://github.com/hemathens)
+
 # 🧠 Kaggle Projects by Hem Ajit Patel
 
-This repository contains my Kaggle notebooks for various machine learning problems. Each notebook includes data exploration, feature engineering, model training, and evaluation.
-All projects were completed in Python using libraries like Pandas, NumPy, Scikit-learn, and more.
+Welcome! This repo houses my top Kaggle notebooks—complete with data exploration, feature engineering, model training, and evaluation. Built in Python with Pandas, NumPy, Scikit-learn, XGBoost, and more.
 
 ---
 
-## 📘 Notebooks Included
+## 📋 Table of Contents
 
-### 1. 🧮 Digits Prediction
-- Classification of handwritten digits using the **MNIST digits dataset**.
-- Models used: Logistic Regression, Random Forest, SVM.
-- Evaluation: Accuracy, Confusion Matrix.
-- [direct link to kaggle notebook ](https://www.kaggle.com/code/hemajitpatel/digits-prediction-hem)
+1. [Projects](#projects)  
+2. [Datasets](#datasets)  
+3. [Tech Stack](#tech-stack)  
+4. [How to Use](#how-to-use)  
+5. [Author](#author)  
 
-### 2. 🏠 House Price Prediction
-- Regression model to predict house prices.
-- Dataset: [House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
-- Techniques: Data preprocessing, outlier removal, XGBoost.
-- [direct link to kaggle notebook ](https://www.kaggle.com/code/hemajitpatel/house-price-hem)
+---
 
-### 3. 🚢 Titanic Survival Prediction
-- Classification to predict survival on the Titanic.
-- Dataset: [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
-- Focus: Feature engineering, handling missing data, model selection.
-- [direct link to kaggle notebook ](https://www.kaggle.com/code/hemajitpatel/titanic-hem)
+## 🚀 Projects
+
+| #  | Project                     | Description                                      | Kaggle Link                                             |
+|----|-----------------------------|--------------------------------------------------|---------------------------------------------------------|
+| 1  | 🧮 **Digits Prediction**     | Classify handwritten digits (MNIST).             | [Notebook](https://www.kaggle.com/hemajitpatel/digits-prediction-hem) |
+| 2  | 🏠 **House Price Prediction** | Predict house prices with regression models.      | [Notebook](https://www.kaggle.com/hemajitpatel/house-price-hem)       |
+| 3  | 🚢 **Titanic Survival**      | Who survived the Titanic? Feature engineering + models. | [Notebook](https://www.kaggle.com/hemajitpatel/titanic-hem)           |
 
 ---
 
 ## 📁 Datasets
 
-Datasets are sourced from Kaggle and can be downloaded directly from the competition pages (linked above). For simplicity and file size reasons, they are not included directly in this repo.
+All data come from Kaggle competitions.  
+- **Digits (MNIST)**: built-in in Scikit-learn  
+- **House Prices**: [Download CSV](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)  
+- **Titanic**: [Download CSV](https://www.kaggle.com/c/titanic/data)
+
+> **Note**: Due to GitHub size limits, raw CSVs are not included here—please follow the links above.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python (Jupyter Notebooks , Google Collab Notebooks)
-- NumPy, Pandas, Matplotlib, Seaborn
-- Scikit-learn, XGBoost, CATBoost, LightGBM
-- GitHub for version control
+- **Languages & Notebooks:** Python, Jupyter  
+- **Data:** NumPy, Pandas  
+- **Visualization:** Matplotlib, Seaborn  
+- **Modeling:** Scikit-learn, XGBoost, CatBoost, LightGBM  
+- **Version Control:** Git, GitHub  
 
 ---
 
-## 👨‍💻 Author
+## ⚙️ How to Use
 
-**Hem Ajit Patel**  
-- 🌐 [Kaggle Profile](https://www.kaggle.com/hemajitpatel)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/hem-patel19?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
-- 🐙 [GitHub](https://github.com/hemathens)
+```bash
+# Clone this repo
+git clone https://github.com/hemathens/kaggle-projects.git
+cd kaggle-projects
 
----
-
-⭐ *If you like this repo, consider giving it a star!*
+# Open a notebook
+jupyter notebook digits-prediction-hem.ipynb
