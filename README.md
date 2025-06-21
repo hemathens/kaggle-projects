@@ -11,19 +11,19 @@ All projects were completed in Python using libraries like Pandas, NumPy, Scikit
 - Classification of handwritten digits using the **MNIST digits dataset**.
 - Models used: Logistic Regression, Random Forest, SVM.
 - Evaluation: Accuracy, Confusion Matrix.
-- [direct link to kaggle notebook: ](https://www.kaggle.com/code/hemajitpatel/digits-prediction-hem)
+- [direct link to kaggle notebook ](https://www.kaggle.com/code/hemajitpatel/digits-prediction-hem)
 
 ### 2. 🏠 House Price Prediction
 - Regression model to predict house prices.
 - Dataset: [House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 - Techniques: Data preprocessing, outlier removal, XGBoost.
-- [direct link to kaggle notebook: ](https://www.kaggle.com/code/hemajitpatel/house-price-hem)
+- [direct link to kaggle notebook ](https://www.kaggle.com/code/hemajitpatel/house-price-hem)
 
 ### 3. 🚢 Titanic Survival Prediction
 - Classification to predict survival on the Titanic.
 - Dataset: [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
 - Focus: Feature engineering, handling missing data, model selection.
-- [direct link to kaggle notebook: ](https://www.kaggle.com/code/hemajitpatel/titanic-hem)
+- [direct link to kaggle notebook ](https://www.kaggle.com/code/hemajitpatel/titanic-hem)
 
 ---
 
