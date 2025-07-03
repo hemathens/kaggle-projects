@@ -12,10 +12,10 @@ Welcome! This repo houses my top Kaggle notebooks—complete with data explorati
 
 ## 📋 Table of Contents
 
-1. [Projects](#projects)  
-2. [Datasets](#datasets)  
-3. [Tech Stack](#tech-stack)  
-4. [How to Use](#how-to-use)  
+1. [[Projects](https://github.com/hemathens/kaggle-projects?tab=readme-ov-file#-projects)]  
+2. [[Datasets](https://github.com/hemathens/kaggle-projects?tab=readme-ov-file#-datasets)]  
+3. [[Tech Stack](https://github.com/hemathens/kaggle-projects?tab=readme-ov-file#%EF%B8%8F-tech-stack)]  
+4. [[How to Use](https://github.com/hemathens/kaggle-projects?tab=readme-ov-file#%EF%B8%8F-how-to-use)] 
 5. [Author](#author)  
 
 ---
