@@ -6,7 +6,7 @@
 
 # 🧠 Kaggle Projects by Hem Ajit Patel
 
-Welcome! This repo houses my top Kaggle notebooks—complete with data exploration, feature engineering, model training, and evaluation. Built in Python with Pandas, NumPy, Scikit-learn, XGBoost, and more.
+Welcome! This repo houses my top Kaggle notebooks—complete with data exploration, feature engineering, model training, and evaluation. Built in Python with Pandas, NumPy, seaborn, Matplotlib, trained on Scikit-learn, XGBoost, RandomForest, CatBoost and more.
 
 ---
 
