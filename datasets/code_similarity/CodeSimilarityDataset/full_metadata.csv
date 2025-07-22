@@ -1,0 +1,105 @@
+problem_type,id,filename,language,method,notes
+reverse_string,1,snip_01.py,Python,Slicing,Uses slicing syntax
+reverse_string,2,snip_02.py,Python,Loop,Manual loop building
+reverse_string,3,snip_03.py,Python,reversed(),Built-in reversed function
+reverse_string,4,snip_04.py,Python,List reverse,Convert to list then reverse
+reverse_string,5,snip_05.py,Python,In-place swap,Swaps characters manually
+reverse_string,6,snip_06.py,Python,Backward loop,Range-based backward iteration
+reverse_string,7,snip_07.py,Python,Recursion,Recursive call
+reverse_string,8,snip_08.py,Python,While loop,Manual decrement with while
+reverse_string,9,snip_09.py,Python,List comprehension,Using range in list comp
+reverse_string,10,snip_10.py,Python,Generator expression,Char-by-char generator
+reverse_string,11,snip_11.py,Python,List conversion,Convert to list then reverse
+reverse_string,12,snip_12.py,Python,For loop with index,Manual indexing
+reverse_string,13,snip_13.py,Python,Negative index,Using negative indices
+reverse_string,14,snip_14.py,Python,Custom range,Custom range logic
+reverse_string,15,snip_15.py,Python,Prepend loop,Adding to front in loop
+reverse_string,16,snip_16.py,Python,Generator filter,Use generator with condition
+reverse_string,17,snip_17.py,Python,Double join,Join over reversed join
+reverse_string,18,snip_18.py,Python,Index from end,Using len() in reverse
+reverse_string,19,snip_19.py,Python,List and reversed,Convert to list then reversed
+reverse_string,20,snip_20.py,Python,Same as 6,Duplicate method
+
+max_in_list,1,snip_01.py,Python,Built-in max,Uses Python’s built-in max()
+max_in_list,2,snip_02.py,Python,Manual loop,Iterates and compares
+max_in_list,3,snip_03.py,Python,Reduce,Uses functools.reduce
+max_in_list,4,snip_04.py,Python,Sorted,Sorts and returns last
+max_in_list,5,snip_05.py,Python,Recursive,Recursive comparison
+max_in_list,6,snip_06.py,Python,With init,Starts from negative infinity
+max_in_list,7,snip_07.py,Python,Index tracking,Tracks index of max
+max_in_list,8,snip_08.py,Python,Bubble logic,Simulates bubble sort
+max_in_list,9,snip_09.py,Python,List comprehension,Uses walrus operator
+max_in_list,10,snip_10.py,Python,Heapq,Uses heapq.nlargest
+max_in_list,11,snip_11.py,Python,All check,Finds first max via all()
+max_in_list,12,snip_12.py,Python,Try-except,Handles empty lists
+max_in_list,13,snip_13.py,Python,Nested loop,Brute-force nested compare
+max_in_list,14,snip_14.py,Python,Math module,Uses math.inf
+max_in_list,15,snip_15.py,Python,Lambda reduce,Duplicate of snip_03
+max_in_list,16,snip_16.py,Python,Custom compare,Internal helper function
+max_in_list,17,snip_17.py,Python,Eval trick,Uses eval (not safe!)
+max_in_list,18,snip_18.py,Python,Numpy,Uses numpy.max()
+max_in_list,19,snip_19.py,Python,While loop,Implements with while
+max_in_list,20,snip_20.py,Python,Dictionary keys,Finds max via dict keys
+
+is_prime,1,snip_01.py,Python,Basic loop,Checks all numbers up to n
+is_prime,2,snip_02.py,Python,Sqrt optimization,Uses square root limit
+is_prime,3,snip_03.py,Python,One-liner,Compact logic
+is_prime,4,snip_04.py,Python,Recursive,Recursive divisor check
+is_prime,5,snip_05.py,Python,List comprehension,Uses list comp
+is_prime,6,snip_06.py,Python,Even skip,Skips even numbers
+is_prime,7,snip_07.py,Python,Try-except,Handles invalid input
+is_prime,8,snip_08.py,Python,Lambda,Functional style
+is_prime,9,snip_09.py,Python,Brute-force,Counts all divisors
+is_prime,10,snip_10.py,Python,Filter,Uses filter function
+is_prime,11,snip_11.py,Python,Full loop,Checks all possible divisors
+is_prime,12,snip_12.py,Python,While loop,Implements with while
+is_prime,13,snip_13.py,Python,Predefined primes,Includes known primes
+is_prime,14,snip_14.py,Python,Type check,Rejects non-integers
+is_prime,15,snip_15.py,Python,Any() check,Uses any() logic
+is_prime,16,snip_16.py,Python,Step 2,Only odd divisors
+is_prime,17,snip_17.py,Python,Set check,Empty set means prime
+is_prime,18,snip_18.py,Python,Generator,Uses generator expression
+is_prime,19,snip_19.py,Python,Wheel optimization,Optimized trial division
+is_prime,20,snip_20.py,Python,String trick,Unusual method using strings
+
+is_palindrome,1,snip_01.py,Python,Slicing,Direct comparison with slice
+is_palindrome,2,snip_02.py,Python,reversed(),Uses reversed() function
+is_palindrome,3,snip_03.py,Python,Manual loop,Iterates through half
+is_palindrome,4,snip_04.py,Python,Recursive,Recursive character check
+is_palindrome,5,snip_05.py,Python,List comp,All() with index compare
+is_palindrome,6,snip_06.py,Python,Case-insensitive,Handles case differences
+is_palindrome,7,snip_07.py,Python,Filter alnum,Ignores spaces/punctuation
+is_palindrome,8,snip_08.py,Python,Two pointers,Left-right pointer method
+is_palindrome,9,snip_09.py,Python,List conversion,Converts to list
+is_palindrome,10,snip_10.py,Python,Index match,Matches front/back by index
+is_palindrome,11,snip_11.py,Python,Zip,Uses zip
+is_palindrome,12,snip_12.py,Python,Try-except,Catches exceptions
+is_palindrome,13,snip_13.py,Python,Generator,Uses generator expression
+is_palindrome,14,snip_14.py,Python,String build,Manually builds reverse
+is_palindrome,15,snip_15.py,Python,Stack logic,Simulates stack
+is_palindrome,16,snip_16.py,Python,List equality,Compares list vs reversed
+is_palindrome,17,snip_17.py,Python,Half split,Compare halves
+is_palindrome,18,snip_18.py,Python,Regex clean,Removes special chars
+is_palindrome,19,snip_19.py,Python,Unicode-safe,Handles Unicode characters
+is_palindrome,20,snip_20.py,Python,Lambda wrap,Wrapped in lambda
+
+fibonacci,1,snip_01.py,Python,List iteration,Simple iterative method
+fibonacci,2,snip_02.py,Python,Recursive,Recursive definition
+fibonacci,3,snip_03.py,Python,Generator,Uses generator
+fibonacci,4,snip_04.py,Python,Binet's formula,Math-based approximation
+fibonacci,5,snip_05.py,Python,Memoization,With dictionary cache
+fibonacci,6,snip_06.py,Python,While loop,Manual while control
+fibonacci,7,snip_07.py,Python,Yield generator,Using yield keyword
+fibonacci,8,snip_08.py,Python,Dynamic programming,DP array approach
+fibonacci,9,snip_09.py,Python,Matrix exponentiation,Advanced math method
+fibonacci,10,snip_10.py,Python,Reduce function,Functional approach
+fibonacci,11,snip_11.py,Python,Lru cache,Uses @lru_cache decorator
+fibonacci,12,snip_12.py,Python,Tuple swap,Uses tuple unpacking
+fibonacci,13,snip_13.py,Python,Tail recursion,Simulated tail recursion
+fibonacci,14,snip_14.py,Python,Binet's formula,Another math version
+fibonacci,15,snip_15.py,Python,Preallocation,Faster memory use
+fibonacci,16,snip_16.py,Python,Islice,Uses itertools
+fibonacci,17,snip_17.py,Python,Manual update,Custom variable updates
+fibonacci,18,snip_18.py,Python,Predefined fill,Starts with base values
+fibonacci,19,snip_19.py,Python,Map function,Functional mapping
+fibonacci,20,snip_20.py,Python,Numpy array,Uses numpy arrays

@@ -1,0 +1,21 @@
+id,filename,language,method,notes
+1,snip_01.py,Python,Basic loop,Checks all numbers up to n
+2,snip_02.py,Python,Sqrt optimization,Uses square root limit
+3,snip_03.py,Python,One-liner,Compact logic
+4,snip_04.py,Python,Recursive,Recursive divisor check
+5,snip_05.py,Python,List comprehension,Uses list comp
+6,snip_06.py,Python,Even skip,Skips even numbers
+7,snip_07.py,Python,Try-except,Handles invalid input
+8,snip_08.py,Python,Lambda,Functional style
+9,snip_09.py,Python,Brute-force,Counts all divisors
+10,snip_10.py,Python,Filter,Uses filter function
+11,snip_11.py,Python,Full loop,Checks all possible divisors
+12,snip_12.py,Python,While loop,Implements with while
+13,snip_13.py,Python,Predefined primes,Includes known primes
+14,snip_14.py,Python,Type check,Rejects non-integers
+15,snip_15.py,Python,Any() check,Uses any() logic
+16,snip_16.py,Python,Step 2,Only odd divisors
+17,snip_17.py,Python,Set check,Empty set means prime
+18,snip_18.py,Python,Generator,Uses generator expression
+19,snip_19.py,Python,Wheel optimization,Optimized trial division
+20,snip_20.py,Python,String trick,Unusual method using strings

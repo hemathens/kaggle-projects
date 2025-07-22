@@ -1,0 +1,21 @@
+id,filename,language,method,notes
+1,snip_01.py,Python,Slicing,Uses slicing syntax
+2,snip_02.py,Python,Loop,Manual loop building
+3,snip_03.py,Python,reversed(),Built-in reversed function
+4,snip_04.py,Python,List reverse,Convert to list then reverse
+5,snip_05.py,Python,In-place swap,Swaps characters manually
+6,snip_06.py,Python,Backward loop,Range-based backward iteration
+7,snip_07.py,Python,Recursion,Recursive call
+8,snip_08.py,Python,While loop,Manual decrement with while
+9,snip_09.py,Python,List comprehension,Using range in list comp
+10,snip_10.py,Python,Generator expression,Char-by-char generator
+11,snip_11.py,Python,List conversion,Convert to list then reverse
+12,snip_12.py,Python,For loop with index,Manual indexing
+13,snip_13.py,Python,Negative index,Using negative indices
+14,snip_14.py,Python,Custom range,Custom range logic
+15,snip_15.py,Python,Prepend loop,Adding to front in loop
+16,snip_16.py,Python,Generator filter,Use generator with condition
+17,snip_17.py,Python,Double join,Join over reversed join
+18,snip_18.py,Python,Index from end,Using len() in reverse
+19,snip_19.py,Python,List and reversed,Convert to list then reversed
+20,snip_20.py,Python,Same as 6,Duplicate method

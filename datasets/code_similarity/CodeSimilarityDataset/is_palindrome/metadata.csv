@@ -1,0 +1,21 @@
+id,filename,language,method,notes
+1,snip_01.py,Python,Slicing,Direct comparison with slice
+2,snip_02.py,Python,reversed(),Uses reversed() function
+3,snip_03.py,Python,Manual loop,Iterates through half
+4,snip_04.py,Python,Recursive,Recursive character check
+5,snip_05.py,Python,List comp,All() with index compare
+6,snip_06.py,Python,Case-insensitive,Handles case differences
+7,snip_07.py,Python,Filter alnum,Ignores spaces/punctuation
+8,snip_08.py,Python,Two pointers,Left-right pointer method
+9,snip_09.py,Python,List conversion,Converts to list
+10,snip_10.py,Python,Index match,Matches front/back by index
+11,snip_11.py,Python,Zip with reversed,Uses zip
+12,snip_12.py,Python,Try-except,Catches exceptions
+13,snip_13.py,Python,Generator,Uses generator expression
+14,snip_14.py,Python,String build,Manually builds reverse
+15,snip_15.py,Python,Stack logic,Simulates stack
+16,snip_16.py,Python,List equality,Compares list vs reversed
+17,snip_17.py,Python,Half split,Compare halves
+18,snip_18.py,Python,Regex clean,Removes special chars
+19,snip_19.py,Python,Unicode-safe,Handles Unicode characters
+20,snip_20.py,Python,Lambda wrap,Wrapped in lambda

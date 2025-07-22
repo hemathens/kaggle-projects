@@ -1,0 +1,21 @@
+id,filename,language,method,notes
+1,snip_01.py,Python,Built-in max,Uses Python’s built-in max()
+2,snip_02.py,Python,Manual loop,Iterates and compares
+3,snip_03.py,Python,Reduce,Uses functools.reduce
+4,snip_04.py,Python,Sorted,Sorts and returns last
+5,snip_05.py,Python,Recursive,Recursive comparison
+6,snip_06.py,Python,With init,Starts from negative infinity
+7,snip_07.py,Python,Index tracking,Tracks index of max
+8,snip_08.py,Python,Bubble logic,Simulates bubble sort
+9,snip_09.py,Python,List comprehension,Uses walrus operator
+10,snip_10.py,Python,Heapq,Uses heapq.nlargest
+11,snip_11.py,Python,All check,Finds first max via all()
+12,snip_12.py,Python,Try-except,Handles empty lists
+13,snip_13.py,Python,Nested loop,Brute-force nested compare
+14,snip_14.py,Python,Math module,Uses math.inf
+15,snip_15.py,Python,Lambda reduce,Duplicate of snip_03
+16,snip_16.py,Python,Custom compare,Internal helper function
+17,snip_17.py,Python,Eval trick,Uses eval (not safe!)
+18,snip_18.py,Python,Numpy,Uses numpy.max()
+19,snip_19.py,Python,While loop,Implements with while
+20,snip_20.py,Python,Dictionary keys,Finds max via dict keys

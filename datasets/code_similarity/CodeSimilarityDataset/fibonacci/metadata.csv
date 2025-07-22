@@ -1,0 +1,21 @@
+id,filename,language,method,notes
+1,snip_01.py,Python,List iteration,Simple iterative method
+2,snip_02.py,Python,Recursive,Recursive definition
+3,snip_03.py,Python,Generator,Uses generator
+4,snip_04.py,Python,Binet's formula,Math-based approximation
+5,snip_05.py,Python,Memoization,With dictionary cache
+6,snip_06.py,Python,While loop,Manual while control
+7,snip_07.py,Python,Yield generator,Using yield keyword
+8,snip_08.py,Python,Dynamic programming,DP array approach
+9,snip_09.py,Python,Matrix exponentiation,Advanced math method
+10,snip_10.py,Python,Reduce function,Functional approach
+11,snip_11.py,Python,Lru cache,Uses @lru_cache decorator
+12,snip_12.py,Python,Tuple swap,Uses tuple unpacking
+13,snip_13.py,Python,Tail recursion,Simulated tail recursion
+14,snip_14.py,Python,Binet's formula,Another math version
+15,snip_15.py,Python,Preallocation,Faster memory use
+16,snip_16.py,Python,Islice,Uses itertools
+17,snip_17.py,Python,Manual update,Custom variable updates
+18,snip_18.py,Python,Predefined fill,Starts with base values
+19,snip_19.py,Python,Map function,Functional mapping
+20,snip_20.py,Python,Numpy array,Uses numpy arrays

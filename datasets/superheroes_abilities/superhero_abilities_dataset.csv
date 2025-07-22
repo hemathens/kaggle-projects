@@ -1,0 +1,201 @@
+Name,Universe,Alignment,Strength,Speed,Intelligence,Combat Skill,Weapon,Power Score,Popularity Score
+Iron Man #1,Marvel,Anti-Hero,1.0,1.0,2.0,5,Sword,65,40
+Batman #1,DC,Anti-Hero,5.0,4.0,6.0,2,Shield,94,98
+Joker #1,Marvel,Hero,3.0,9.0,2.0,5,Hammer,62,40
+Thor #1,Marvel,Hero,1.0,6.0,2.0,8,Claws,83,91
+Thanos #1,Marvel,Villain,4.0,3.0,2.0,9,Claws,78,77
+Wonder Woman #1,DC,Hero,5.0,1.0,,2,Shield,54,33
+Spider-Man #1,Marvel,Anti-Hero,7.0,,2.0,3,Claws,95,6
+Green Lantern #1,Marvel,Anti-Hero,1.0,9.0,4.0,3,Bow,88,88
+Deadpool #1,Marvel,Hero,3.0,3.0,9.0,1,Hammer,43,19
+Black Panther #1,DC,Anti-Hero,2.0,9.0,6.0,8,Psychic,68,80
+Loki #1,Marvel,Anti-Hero,9.0,7.0,1.0,6,Claws,61,40
+Captain America #1,Marvel,Hero,10.0,4.0,8.0,8,Sword,64,92
+Superman #1,Marvel,Hero,6.0,3.0,7.0,9,Bow,52,97
+Harley Quinn #1,Marvel,Anti-Hero,10.0,10.0,10.0,5,Claws,57,59
+Flash #1,DC,Anti-Hero,3.0,5.0,3.0,3,Bow,72,59
+Doctor Strange #1,Marvel,Anti-Hero,,5.0,1.0,5,None,55,48
+Hulk #1,DC,Villain,8.0,,5.0,5,Psychic,84,41
+Aquaman #1,DC,Villain,2.0,9.0,4.0,5,Magic,81,13
+Catwoman #1,DC,Villain,6.0,4.0,10.0,3,Sword,83,45
+Wolverine #1,Marvel,Hero,7.0,5.0,8.0,10,Sword,41,89
+Iron Man #2,DC,Villain,2.0,4.0,1.0,4,Hammer,94,53
+Batman #2,Marvel,Hero,10.0,5.0,10.0,9,Bow,74,42
+Joker #2,DC,Hero,2.0,7.0,1.0,10,Shield,81,100
+Thor #2,DC,Villain,10.0,,4.0,9,Sword,73,63
+Thanos #2,DC,Villain,1.0,7.0,8.0,2,Bow,69,27
+Wonder Woman #2,DC,Villain,8.0,5.0,5.0,8,Bow,98,38
+Spider-Man #2,DC,Anti-Hero,1.0,,2.0,8,Tech,94,60
+Green Lantern #2,DC,Villain,9.0,10.0,6.0,7,,52,7
+Deadpool #2,DC,Anti-Hero,6.0,7.0,5.0,8,,52,5
+Black Panther #2,DC,Hero,7.0,10.0,,3,None,57,45
+Loki #2,Marvel,Anti-Hero,10.0,5.0,3.0,6,Magic,71,58
+Captain America #2,Marvel,Villain,7.0,3.0,9.0,1,Claws,71,31
+Superman #2,DC,Hero,10.0,7.0,7.0,7,Shield,74,23
+Harley Quinn #2,DC,Hero,3.0,2.0,7.0,1,Claws,98,42
+Flash #2,DC,Hero,2.0,9.0,6.0,9,Claws,78,10
+Doctor Strange #2,Marvel,Anti-Hero,9.0,10.0,8.0,1,Hammer,85,32
+Hulk #2,DC,Villain,8.0,10.0,4.0,1,Claws,91,53
+Aquaman #2,Marvel,Hero,10.0,1.0,8.0,7,Magic,68,30
+Catwoman #2,Marvel,Hero,7.0,6.0,4.0,2,Sword,88,39
+Wolverine #2,Marvel,Hero,9.0,7.0,8.0,5,Sword,68,31
+Iron Man #3,Marvel,Anti-Hero,4.0,8.0,9.0,8,Tech,92,82
+Batman #3,Marvel,Anti-Hero,4.0,10.0,3.0,8,Shield,83,100
+Joker #3,DC,Villain,,9.0,3.0,3,,96,2
+Thor #3,DC,Anti-Hero,8.0,2.0,2.0,7,Hammer,55,78
+Thanos #3,DC,Hero,3.0,10.0,10.0,3,Magic,95,77
+Wonder Woman #3,DC,Villain,7.0,2.0,3.0,6,Tech,83,93
+Spider-Man #3,DC,Hero,,5.0,3.0,6,Shield,86,12
+Green Lantern #3,Marvel,Hero,2.0,5.0,5.0,3,,96,39
+Deadpool #3,DC,Anti-Hero,7.0,6.0,5.0,7,Claws,49,66
+Black Panther #3,DC,Villain,6.0,3.0,2.0,3,Claws,69,96
+Loki #3,Marvel,Anti-Hero,3.0,,10.0,8,Tech,64,13
+Captain America #3,DC,Anti-Hero,9.0,1.0,6.0,10,Magic,78,46
+Superman #3,Marvel,Villain,10.0,6.0,5.0,4,Magic,59,27
+Harley Quinn #3,DC,Hero,6.0,4.0,6.0,1,None,44,17
+Flash #3,Marvel,Hero,10.0,1.0,1.0,4,Psychic,40,95
+Doctor Strange #3,DC,Villain,10.0,7.0,5.0,7,Shield,69,98
+Hulk #3,DC,Hero,6.0,9.0,9.0,4,Magic,88,60
+Aquaman #3,Marvel,Villain,1.0,4.0,10.0,6,Sword,42,64
+Catwoman #3,Marvel,Villain,4.0,4.0,,9,Tech,84,88
+Wolverine #3,Marvel,Anti-Hero,10.0,6.0,1.0,1,None,53,35
+Iron Man #4,Marvel,Villain,6.0,,10.0,5,,95,70
+Batman #4,Marvel,Anti-Hero,6.0,6.0,9.0,7,Hammer,69,83
+Joker #4,Marvel,Hero,5.0,7.0,10.0,1,Bow,89,30
+Thor #4,Marvel,Hero,1.0,10.0,9.0,4,Claws,43,71
+Thanos #4,Marvel,Hero,,10.0,9.0,6,Hammer,57,74
+Wonder Woman #4,DC,Hero,5.0,3.0,6.0,2,Shield,76,96
+Spider-Man #4,DC,Anti-Hero,5.0,7.0,8.0,10,Sword,64,98
+Green Lantern #4,Marvel,Hero,7.0,3.0,1.0,5,Hammer,87,63
+Deadpool #4,DC,Villain,4.0,2.0,10.0,10,Psychic,40,28
+Black Panther #4,DC,Villain,6.0,10.0,4.0,1,Bow,92,60
+Loki #4,DC,Villain,4.0,4.0,1.0,6,Shield,85,79
+Captain America #4,DC,Anti-Hero,3.0,8.0,8.0,6,Psychic,54,94
+Superman #4,Marvel,Hero,7.0,9.0,1.0,4,Claws,48,37
+Harley Quinn #4,DC,Hero,8.0,7.0,3.0,8,Psychic,54,93
+Flash #4,Marvel,Hero,4.0,1.0,4.0,4,None,88,22
+Doctor Strange #4,DC,Anti-Hero,2.0,3.0,8.0,8,None,96,68
+Hulk #4,DC,Villain,10.0,9.0,,8,Tech,63,20
+Aquaman #4,DC,Villain,3.0,1.0,10.0,5,Shield,43,96
+Catwoman #4,Marvel,Hero,1.0,9.0,7.0,4,Claws,51,100
+Wolverine #4,DC,Villain,8.0,8.0,8.0,2,Magic,98,68
+Iron Man #5,Marvel,Villain,3.0,1.0,2.0,3,None,97,91
+Batman #5,DC,Anti-Hero,10.0,6.0,10.0,3,Shield,76,64
+Joker #5,Marvel,Anti-Hero,7.0,5.0,8.0,4,Magic,100,17
+Thor #5,DC,Anti-Hero,10.0,6.0,,4,Tech,76,12
+Thanos #5,Marvel,Anti-Hero,5.0,10.0,7.0,10,Psychic,82,22
+Wonder Woman #5,Marvel,Hero,10.0,5.0,3.0,5,None,99,17
+Spider-Man #5,DC,Anti-Hero,5.0,6.0,7.0,4,Shield,45,10
+Green Lantern #5,Marvel,Villain,7.0,5.0,2.0,10,Hammer,78,65
+Deadpool #5,DC,Hero,9.0,5.0,10.0,8,Magic,95,22
+Black Panther #5,DC,Villain,5.0,4.0,6.0,6,Psychic,85,90
+Loki #5,DC,Villain,,3.0,3.0,6,None,63,82
+Captain America #5,DC,Villain,10.0,3.0,3.0,8,Claws,50,50
+Superman #5,DC,Anti-Hero,10.0,4.0,9.0,7,Magic,52,14
+Harley Quinn #5,DC,Anti-Hero,,9.0,7.0,10,None,73,64
+Flash #5,DC,Hero,2.0,2.0,5.0,10,Magic,64,47
+Doctor Strange #5,DC,Hero,6.0,9.0,10.0,8,Psychic,46,29
+Hulk #5,DC,Anti-Hero,9.0,1.0,7.0,2,None,91,76
+Aquaman #5,DC,Villain,8.0,1.0,9.0,9,Bow,43,36
+Catwoman #5,DC,Hero,5.0,5.0,1.0,1,Shield,98,99
+Wolverine #5,Marvel,Anti-Hero,1.0,6.0,7.0,8,Psychic,47,52
+Iron Man #6,Marvel,Anti-Hero,,6.0,6.0,4,Magic,59,76
+Batman #6,DC,Anti-Hero,5.0,3.0,10.0,4,Claws,68,7
+Joker #6,DC,Villain,6.0,7.0,9.0,5,Hammer,93,29
+Thor #6,DC,Anti-Hero,7.0,9.0,1.0,8,Magic,92,11
+Thanos #6,DC,Anti-Hero,3.0,10.0,4.0,5,Shield,90,33
+Wonder Woman #6,DC,Anti-Hero,10.0,8.0,9.0,8,None,84,6
+Spider-Man #6,DC,Anti-Hero,3.0,6.0,4.0,10,Hammer,85,79
+Green Lantern #6,DC,Hero,5.0,8.0,10.0,1,Sword,49,32
+Deadpool #6,DC,Hero,,5.0,3.0,10,Magic,82,51
+Black Panther #6,Marvel,Anti-Hero,9.0,8.0,9.0,9,Tech,73,75
+Loki #6,DC,Villain,5.0,10.0,2.0,6,Sword,96,58
+Captain America #6,Marvel,Hero,1.0,4.0,4.0,3,Magic,65,87
+Superman #6,DC,Anti-Hero,4.0,10.0,6.0,8,Bow,80,26
+Harley Quinn #6,DC,Hero,5.0,8.0,2.0,9,Tech,88,98
+Flash #6,Marvel,Hero,10.0,,8.0,6,Hammer,97,46
+Doctor Strange #6,DC,Villain,10.0,2.0,8.0,7,,42,98
+Hulk #6,Marvel,Anti-Hero,5.0,5.0,1.0,1,Bow,95,29
+Aquaman #6,DC,Anti-Hero,7.0,9.0,3.0,5,Sword,45,4
+Catwoman #6,DC,Villain,4.0,4.0,10.0,5,None,44,81
+Wolverine #6,Marvel,Villain,1.0,6.0,9.0,10,Shield,44,99
+Iron Man #7,DC,Anti-Hero,5.0,1.0,5.0,4,Claws,93,13
+Batman #7,Marvel,Anti-Hero,7.0,9.0,6.0,6,Bow,86,39
+Joker #7,DC,Villain,10.0,1.0,4.0,7,None,62,15
+Thor #7,Marvel,Hero,10.0,5.0,10.0,9,None,88,29
+Thanos #7,Marvel,Hero,6.0,4.0,2.0,1,Magic,48,29
+Wonder Woman #7,DC,Villain,5.0,3.0,8.0,6,Bow,74,75
+Spider-Man #7,DC,Hero,4.0,6.0,6.0,7,Hammer,59,32
+Green Lantern #7,Marvel,Villain,2.0,2.0,5.0,3,Tech,97,2
+Deadpool #7,DC,Hero,4.0,3.0,9.0,8,Tech,88,47
+Black Panther #7,DC,Hero,10.0,5.0,1.0,5,Sword,100,78
+Loki #7,DC,Anti-Hero,10.0,9.0,5.0,9,Sword,98,84
+Captain America #7,Marvel,Anti-Hero,3.0,2.0,6.0,5,Tech,81,22
+Superman #7,Marvel,Hero,10.0,10.0,5.0,9,Hammer,74,75
+Harley Quinn #7,Marvel,Hero,1.0,8.0,6.0,10,Shield,89,27
+Flash #7,Marvel,Anti-Hero,8.0,2.0,6.0,4,Psychic,57,67
+Doctor Strange #7,Marvel,Anti-Hero,5.0,5.0,7.0,9,Shield,56,81
+Hulk #7,Marvel,Anti-Hero,4.0,7.0,4.0,5,Magic,63,56
+Aquaman #7,Marvel,Villain,8.0,,,10,Psychic,42,92
+Catwoman #7,Marvel,Hero,7.0,1.0,7.0,9,,71,93
+Wolverine #7,Marvel,Anti-Hero,2.0,6.0,9.0,3,Bow,74,21
+Iron Man #8,DC,Hero,,1.0,7.0,4,Hammer,77,47
+Batman #8,Marvel,Villain,4.0,2.0,3.0,9,Hammer,52,80
+Joker #8,DC,Villain,8.0,1.0,3.0,10,Psychic,95,59
+Thor #8,DC,Anti-Hero,,5.0,8.0,6,Bow,100,84
+Thanos #8,DC,Villain,3.0,10.0,,2,Psychic,86,6
+Wonder Woman #8,Marvel,Hero,1.0,9.0,4.0,7,Claws,64,19
+Spider-Man #8,Marvel,Anti-Hero,1.0,6.0,8.0,2,Sword,48,57
+Green Lantern #8,Marvel,Hero,3.0,1.0,6.0,2,Sword,43,69
+Deadpool #8,Marvel,Hero,5.0,1.0,2.0,1,Shield,53,3
+Black Panther #8,DC,Villain,3.0,2.0,4.0,3,Magic,76,1
+Loki #8,Marvel,Villain,1.0,9.0,4.0,6,,73,58
+Captain America #8,Marvel,Villain,1.0,3.0,6.0,8,None,50,38
+Superman #8,Marvel,Villain,8.0,1.0,,9,Shield,80,15
+Harley Quinn #8,Marvel,Villain,10.0,,1.0,7,Sword,95,34
+Flash #8,Marvel,Anti-Hero,2.0,7.0,8.0,4,Magic,42,61
+Doctor Strange #8,DC,Hero,3.0,6.0,6.0,6,Hammer,98,35
+Hulk #8,Marvel,Hero,2.0,1.0,3.0,5,Hammer,67,64
+Aquaman #8,DC,Hero,3.0,5.0,9.0,8,Psychic,68,25
+Catwoman #8,Marvel,Hero,7.0,5.0,2.0,1,Claws,48,24
+Wolverine #8,DC,Villain,1.0,6.0,8.0,1,Hammer,42,12
+Iron Man #9,Marvel,Hero,10.0,3.0,10.0,6,Bow,64,18
+Batman #9,Marvel,Anti-Hero,8.0,5.0,3.0,10,Sword,73,15
+Joker #9,DC,Anti-Hero,10.0,7.0,5.0,2,Bow,51,80
+Thor #9,DC,Hero,10.0,5.0,6.0,5,Magic,81,27
+Thanos #9,DC,Hero,10.0,5.0,10.0,1,,48,72
+Wonder Woman #9,Marvel,Anti-Hero,2.0,5.0,6.0,7,Claws,54,60
+Spider-Man #9,DC,Anti-Hero,3.0,10.0,4.0,1,Magic,79,46
+Green Lantern #9,Marvel,Villain,9.0,10.0,3.0,4,None,64,89
+Deadpool #9,Marvel,Anti-Hero,7.0,3.0,4.0,9,None,44,17
+Black Panther #9,DC,Villain,4.0,1.0,1.0,1,Bow,50,93
+Loki #9,DC,Villain,10.0,5.0,4.0,4,Psychic,98,53
+Captain America #9,Marvel,Villain,5.0,9.0,1.0,6,Shield,73,8
+Superman #9,Marvel,Villain,2.0,1.0,,6,Psychic,63,79
+Harley Quinn #9,DC,Villain,8.0,3.0,10.0,8,Psychic,99,27
+Flash #9,DC,Hero,4.0,4.0,6.0,1,Claws,54,46
+Doctor Strange #9,DC,Anti-Hero,9.0,1.0,5.0,7,Hammer,77,50
+Hulk #9,Marvel,Villain,5.0,1.0,4.0,1,Claws,47,71
+Aquaman #9,Marvel,Anti-Hero,9.0,8.0,3.0,7,Magic,98,3
+Catwoman #9,Marvel,Anti-Hero,4.0,2.0,1.0,3,None,44,93
+Wolverine #9,Marvel,Villain,10.0,8.0,6.0,8,Claws,87,64
+Iron Man #10,Marvel,Hero,5.0,7.0,2.0,3,Magic,65,44
+Batman #10,Marvel,Villain,9.0,10.0,8.0,1,Claws,57,53
+Joker #10,DC,Hero,8.0,10.0,10.0,8,Psychic,45,24
+Thor #10,Marvel,Anti-Hero,3.0,2.0,5.0,3,Sword,76,60
+Thanos #10,Marvel,Hero,1.0,6.0,7.0,2,Bow,99,3
+Wonder Woman #10,Marvel,Hero,3.0,6.0,10.0,1,Shield,87,20
+Spider-Man #10,DC,Hero,4.0,3.0,2.0,3,Claws,52,46
+Green Lantern #10,Marvel,Anti-Hero,2.0,2.0,8.0,2,,67,15
+Deadpool #10,Marvel,Anti-Hero,1.0,1.0,2.0,2,Tech,44,25
+Black Panther #10,DC,Hero,7.0,6.0,4.0,6,Claws,52,94
+Loki #10,Marvel,Hero,8.0,5.0,1.0,1,Sword,56,78
+Captain America #10,Marvel,Villain,7.0,9.0,5.0,2,Shield,89,71
+Superman #10,Marvel,Hero,5.0,1.0,9.0,6,Claws,79,17
+Harley Quinn #10,Marvel,Villain,1.0,7.0,1.0,3,Hammer,84,84
+Flash #10,Marvel,Hero,7.0,5.0,9.0,4,Bow,71,100
+Doctor Strange #10,DC,Villain,7.0,5.0,8.0,1,Sword,68,9
+Hulk #10,DC,Anti-Hero,9.0,2.0,6.0,8,Shield,90,38
+Aquaman #10,DC,Hero,3.0,3.0,7.0,7,Sword,97,48
+Catwoman #10,Marvel,Hero,9.0,,3.0,7,Magic,42,60
+Wolverine #10,Marvel,Hero,1.0,6.0,,3,Bow,95,63
