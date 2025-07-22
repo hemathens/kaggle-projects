@@ -37,7 +37,7 @@ kaggle-projects/
 | 2  |  **House Price Prediction** | Predict house prices with regression models.      | [Notebook](https://www.kaggle.com/hemajitpatel/house-price-hem)       |
 | 3  |  **Titanic Survival**      | Who survived the Titanic? Feature engineering + models. | [Notebook](https://www.kaggle.com/hemajitpatel/titanic-hem)           |
 | 3  |  **Heads or Tails**      | Predict heads or tail from a section of an image | [Notebook](https://www.kaggle.com/code/hemajitpatel/heads-or-tails-hem)           |
-
+| 4  |  **Superheros_abilities_dataset ** | Sample usage Notebook for superheros dataset | [Notebook](https://www.kaggle.com/code/hemajitpatel/superheros-abilities) |
 ---
 
 ## Datasets
