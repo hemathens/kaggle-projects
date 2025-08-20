@@ -203,78 +203,85 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 - Predictive tasks: `train_test_split(X, y, test_size=0.20, random_state=42)` → 80/20.  
 - Unsupervised tasks: use full dataset, with holdouts only for downstream validation.  
 
-### 2. 🔗 [Code Similarity Dataset — Python Variants](https://www.kaggle.com/datasets/hemajitpatel/code-similarity-dataset-python-variants)
-
+### 2. 🔗 Code Similarity Dataset — Python Variants  
 **File:** `code-variants.ipynb`
 
 **What’s inside**
-- Short description: A curated dataset of Python **code variants** / implementations of the same problems (useful for code-similarity and clone-detection tasks). The dataset page (linked above) contains the raw files and download instructions. :contentReference[oaicite:1]{index=1}  
-- Exploratory work included:
-  - File-level inventory (problem IDs, variant IDs, author/source if available).  
-  - EDA: distribution of variants per problem, average tokens/lines per snippet, common AST node frequencies, and common identifier name patterns.  
-  - Preprocessing steps: canonicalization (remove comments, normalize whitespace), identifier anonymization (optional), AST extraction, tokenization (subtoken / BPE), and optional bytecode/AST features.  
-  - Feature sets prepared:
-    - **Surface features**: token n-grams, token frequency (TF-IDF).  
-    - **Syntactic features**: AST node counts, AST-path features, control-flow signatures.  
-    - **Semantic embeddings**: CodeBERT / GraphCodeBERT / CodeT5 embeddings or custom trained token embeddings.  
-    - **Handcrafted features**: cyclomatic complexity, function length, number of unique identifiers, API usage vectors.  
+- **Short summary**: many Python solutions for the same problems. Useful for finding similar code, detecting copies, and building a code search tool.  
+- **Quick EDA**: count of problems, number of variants per problem, average lines and tokens.  
+- **Preprocessing**: remove comments, normalize spacing, optionally rename variables to placeholders, and tokenize code.  
+- **Prepared features**:
+  - Token TF-IDF vectors for a fast baseline.  
+  - Small AST-based counts (e.g., number of `if`, `for`, and `def` nodes).  
+  - Optional pretrained code embeddings for stronger semantic matching.  
+  - Handcrafted metrics such as cyclomatic complexity and number of function calls.  
 
 **Experiments included**
-- **Retrieval / Similarity baselines**
-  - TF-IDF (tokens) + Cosine similarity (fast baseline).  
-  - Token & AST n-gram overlap metrics (Jaccard).  
-- **Supervised / Pairwise models**
-  - Siamese networks (Bi-LSTM / Transformer encoder) trained with **contrastive loss** or **triplet loss** to learn similarity embeddings.  
-  - Binary classification on pairs (same-problem vs different-problem) using concatenated embeddings + feedforward head.  
-- **Pretrained transformer fine-tuning**
-  - Fine-tune CodeBERT / GraphCodeBERT with a classification head or siamese pooling for similarity scoring.  
-- **Graph neural model**
-  - AST → graph representation → GNN (GCN/GAT) for structural similarity experiments.  
-- **Evaluation / retrieval**
-  - k-NN retrieval (embedding index: FAISS), precision@k, mean reciprocal rank (MRR), MAP, ROC-AUC for binary pair classification.  
-- **Ablations**
-  - Tokenization schemes (raw tokens vs subtokens), identifier anonymization, impact of AST features vs token features, effect of negative sampling strategy.
+- Fast baseline: TF-IDF on tokens + cosine similarity.  
+- Pair classifier: embed two snippets and train a model to predict same/different problem.  
+- Stronger route: fine-tune a pretrained code model for pairwise similarity.  
+- Structural: convert AST into a simple graph and use a graph model.  
+- Evaluation: retrieval metrics + ablations comparing token vs. structural approaches.  
 
-**How model is trained**
-- **Losses & Objectives**
-  - Contrastive loss: \(L = (1-y) \cdot \frac{1}{2}D^2 + y \cdot \frac{1}{2}\{\max(0, m-D)\}^2\) where \(D\) is embedding distance and \(m\) is margin (typical margin 0.5–1.0).  
-  - Triplet loss: semi-hard negative mining for robust embedding separation.  
-  - Binary cross-entropy for pair classification.  
-- **Architectures & settings**
-  - Transformer encoder (CodeBERT/CodeT5): `batch_size=16–64` (GPU permitting), `lr=1e-5–5e-5`, `epochs=3–10` (with early stopping).  
-  - Siamese Bi-LSTM / CNN: `batch_size=64`, `lr=1e-3` with `AdamW`.  
-  - GNN on AST: `learning_rate=1e-3`, `num_layers=2–4`, hidden dims `128–512`.  
-- **Regularization & tricks**
-  - Mixed positive/negative sampling per batch (balanced). Hard negative mining improves retrieval metrics.  
-  - Use `LayerNorm`, dropout (`0.1–0.3`), weight decay.  
-  - Use FAISS or Annoy for large-scale approximate nearest neighbor (ANN) retrieval in evaluation/deployment.  
-- **Hyperparameter tuning**
-  - Use `Optuna` / `RandomizedSearchCV` for head learning rate, margin, embedding dim, and number of negative samples per anchor.  
-- **Example training snippet (Siamese-style)**
+**How the model is trained**
+- **Two options**:
+  1. Baseline: TF-IDF vectors + cosine similarity (no training).  
+  2. Learned model: encoder maps snippets to vectors; trained so same-problem pairs are close, different-problem pairs are far.  
+- **Typical settings**:
+  - Batch size: small–medium depending on hardware.  
+  - Optimizer: Adam or AdamW.  
+  - Early stopping on validation performance.  
+- **Practical tricks**:
+  - Use balanced batches with equal positive and negative pairs.  
+  - Periodically include hard negatives (look similar but are different).  
+  - Use an ANN library for fast nearest-neighbor search at evaluation and deployment.  
+
+**Simple training loop**
 ```py
-# pseudo-snippet
 for epoch in range(epochs):
-    for batch in dataloader:
-        emb_a = encoder(batch.code_a)
-        emb_b = encoder(batch.code_b)
-        loss = contrastive_loss(emb_a, emb_b, batch.label, margin=0.8)
-        loss.backward(); optimizer.step(); optimizer.zero_grad()
+    for code_a, code_b, label in dataloader:
+        emb_a = encoder(code_a)
+        emb_b = encoder(code_b)
+        loss = contrastive_or_bce_loss(emb_a, emb_b, label)
+        loss.backward()
+        optimizer.step()
+        optimizer.zero_grad()
 ```
+**Data split**
+
+- Recommended split by problem so all variants of a problem go to the same partition.
+- Example: 70% problems → train, 15% → validation, 15% → test.
+- For pair training:
+- Positive pairs: variants of the same problem.
+- Negative pairs: different problems.
+- 
+Ensure test problems are unseen during training for realistic evaluation.
 
 ---
 
-## 🔧 Technologies Used
+## 🔧 Tech Stack
 
-| Tool / Library       | Purpose                          |
-|----------------------|----------------------------------|
-| Python               | Core programming language        |
-| Pandas, NumPy        | Data manipulation & analysis     |
-| Matplotlib, Seaborn  | Data visualization               |
-| Scikit-learn         | ML modeling                      |
-| TensorFlow / PyTorch | Deep learning (future work)      |
-| Jupyter Notebook     | Interactive code & documentation |
-| Kaggle API           | Dataset handling automation      |
-| Git & GitHub         | Version control and collaboration|
+## Tech Stack
+
+| Tool / Library            | Purpose                                                                 |
+|---------------------------|-------------------------------------------------------------------------|
+| Python                    | Core programming language                                               |
+| Pandas, NumPy             | Data manipulation & analysis                                            |
+| Matplotlib, Seaborn       | Data visualization                                                      |
+| Scikit-learn              | ML modeling, TF-IDF (TfidfVectorizer), pipelines, metrics               |
+| TensorFlow / PyTorch      | Deep learning (future work)                                             |
+| Jupyter Notebook          | Interactive code & documentation                                        |
+| Kaggle API                | Dataset handling automation                                             |
+| Git & GitHub              | Version control and collaboration                                       |
+| NLTK / spaCy              | Tokenization, lemmatization, English stopwords lists                    |
+| `TfidfVectorizer` (sklearn) | TF-IDF extraction — supports `stop_words='english'` or custom lists, n-grams, `min_df`, `max_df` |
+| Custom stopwords (domain) | Add domain-specific tokens (e.g., variable names, common words) to stoplist |
+| Sentence-Transformers / Transformers | Semantic embeddings for stronger text similarity / classification  |
+| Gensim                    | Word2Vec / Doc2Vec / fast text embeddings                               |
+| Hugging Face Tokenizers   | Fast tokenization for transformer models                                |
+| imbalanced-learn (SMOTE)  | Oversampling for imbalanced classes                                      |
+| Optuna / RandomizedSearch | Hyperparameter tuning (efficient search for model + vectorizer params)   |
+| FAISS / Annoy             | Fast nearest-neighbor search for retrieval tasks                        |
 
 ---
 
