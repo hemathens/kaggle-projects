@@ -13,14 +13,15 @@ This repo showcases my journey and experiments in Machine Learning, Data Science
 
 ## Projects
 
-| #  | Notebook                    | Description                                      | Links |
-|----|-----------------------------|--------------------------------------------------|-------|
-| 1  | **Digits Prediction**        | Classify handwritten digits (MNIST).             | [Notebook](https://www.kaggle.com/hemajitpatel/digits-prediction-hem) • [![Open Digits in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hemathens/kaggle-projects/blob/main/Digits/digits-prediction.ipynb) |
-| 2  | **House Price Prediction**   | Predict house prices with regression models.      | [Notebook](https://www.kaggle.com/hemajitpatel/house-price-hem) • [![Open HousePrice in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hemathens/kaggle-projects/blob/main/HousePrice/house-price.ipynb) |
-| 3  | **Titanic Survival**         | Who survived the Titanic? Feature engineering + models. | [Notebook](https://www.kaggle.com/hemajitpatel/titanic-hem) • [![Open Titanic in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hemathens/kaggle-projects/blob/main/Titanic/titanic.ipynb) |
-| 4  | **Heads or Tails**           | Predict heads or tails from a section of an image. | [Notebook](https://www.kaggle.com/code/hemajitpatel/heads-or-tails-hem) • [![Open HeadsOrTails in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hemathens/kaggle-projects/blob/main/HeadsOrTails/heads-or-tails.ipynb) |
-| 5  | **Superheros Abilities Dataset** | Sample usage notebook for superheroes dataset. | [Notebook](https://www.kaggle.com/code/hemajitpatel/superheros-abilities) • [![Open Superheroes in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hemathens/kaggle-projects/blob/main/Superheroes/superheros-abilities.ipynb) |
-| 6  | **Rock vs Mine**             | Predicts if an object is a rock or a mine using sonar data. | [![Open RockvsMine in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yoUOlJD6ch8ZlxdqiLbBfI6iT6ozt-Al?usp=sharing) |
+| #  | Notebook                         | Description                                      | Link |
+|----|----------------------------------|--------------------------------------------------|------|
+| 1  | **Digits Prediction**            | Classify handwritten digits (MNIST).             | [![Digits](https://img.shields.io/badge/-Digits-0f62fe?style=for-the-badge)](https://www.kaggle.com/hemajitpatel/digits-prediction-hem) |
+| 2  | **House Price Prediction**       | Predict house prices with regression models.     | [![HousePrice](https://img.shields.io/badge/-HousePrice-0f62fe?style=for-the-badge)](https://www.kaggle.com/hemajitpatel/house-price-hem) |
+| 3  | **Titanic Survival**             | Who survived the Titanic? Feature engineering + models. | [![Titanic](https://img.shields.io/badge/-Titanic-0f62fe?style=for-the-badge)](https://www.kaggle.com/hemajitpatel/titanic-hem) |
+| 4  | **Heads or Tails**               | Predict heads or tail from a section of an image | [![HeadsOrTails](https://img.shields.io/badge/-HeadsOrTails-0f62fe?style=for-the-badge)](https://www.kaggle.com/code/hemajitpatel/heads-or-tails-hem) |
+| 5  | **Superheros Abilities Dataset** | Sample usage notebook for superheroes dataset    | [![Superheroes](https://img.shields.io/badge/-Superheroes-0f62fe?style=for-the-badge)](https://www.kaggle.com/code/hemajitpatel/superheros-abilities) |
+| 6  | **Rock vs Mine**                 | Predicts if an object is a rock or a mine using sonar data. | [![RvsM](https://img.shields.io/badge/-RvsM-0f62fe?style=for-the-badge)](https://colab.research.google.com/drive/1yoUOlJD6ch8ZlxdqiLbBfI6iT6ozt-Al?usp=sharing) |
+
 
 
 ---
