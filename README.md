@@ -28,7 +28,7 @@ This repo showcases my journey and experiments in Machine Learning, Data Science
 
 ---
 
-### 1) Digits Prediction  
+### 1) 🔗 [Digits Prediction ](https://www.kaggle.com/hemajitpatel/digits-prediction-hem) 
 **File:** `digits-prediction.ipynb`
 
 **What’s inside**
@@ -58,7 +58,7 @@ X_train, X_val, y_train, y_val = train_test_split(X_train_full, y_train_full, te
 ```
 
 
-### 2) House Price Prediction  
+### 2) 🔗 [House Price Prediction](https://www.kaggle.com/hemajitpatel/house-price-hem)  
 **File:** `house-price.ipynb`
 
 **What’s inside**
@@ -94,7 +94,7 @@ model = Pipeline([
 ```
 
 
-### 3) Titanic Survival  
+### 3) 🔗 [Titanic Survival](https://www.kaggle.com/hemajitpatel/titanic-hem)  
 **File:** `titanic.ipynb`
 
 **What’s inside**
@@ -125,7 +125,7 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 ```
 
 
-### 4) Heads or Tails  
+### 4) 🔗 [Heads or Tails](https://www.kaggle.com/code/hemajitpatel/heads-or-tails-hem)  
 **File:** `heads-or-tails.ipynb`
 
 **What’s inside**
@@ -146,7 +146,7 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 - Ensure stratified split by label.  
 
 
-### 5) Rock vs Mine (RvsM)  
+### 5) 🔗 [Rock vs Mine (RvsM)](https://colab.research.google.com/drive/1yoUOlJD6ch8ZlxdqiLbBfI6iT6ozt-Al?usp=sharing)  
 **File:** `rock-vs-mine.ipynb` (Colab link available)
 
 **What’s inside**
@@ -203,7 +203,7 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 - Predictive tasks: `train_test_split(X, y, test_size=0.20, random_state=42)` → 80/20.  
 - Unsupervised tasks: use full dataset, with holdouts only for downstream validation.  
 
-### 2. 🔗 [Code Similarity Dataset — Python Variants](https://www.kaggle.com/datasets/hemajitpatel/code-similarity-dataset-python-variants) :contentReference[oaicite:0]{index=0}
+### 2. 🔗 [Code Similarity Dataset — Python Variants](https://www.kaggle.com/datasets/hemajitpatel/code-similarity-dataset-python-variants)
 
 **File:** `code-variants.ipynb`
 
