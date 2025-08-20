@@ -4,9 +4,9 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hem%20Ajit%20Patel-0A66C2?logo=linkedin)](https://www.linkedin.com/in/hem-patel19)
 [![GitHub](https://img.shields.io/badge/GitHub-hemathens-181717?logo=github)](https://github.com/hemathens)
 
-# Kaggle Projects 
+# Machine Learning Projects, Notebooks and Datasets
 
-Welcome to my repository of Kaggle projects, notebooks, and datasets.  
+Welcome to my repository of Machine Learning projects, notebooks, and datasets.  
 This repo showcases my journey and experiments in Machine Learning, Data Science, and Exploratory Data Analysis through real-world problems and custom-created datasets.
 
 ---
