@@ -287,6 +287,7 @@ Ensure test problems are unseen during training for realistic evaluation.
 
 ## How to Use
 
+### 1) Clone the Repo
 ```bash
 # Clone the repository
 git clone https://github.com/hemathens/kaggle-projects.git
@@ -296,6 +297,79 @@ cd kaggle-projects
 cd datasets/
 # View notebooks
 cd notebooks/
+```
+
+### 2) Quick view (no install)
+
+View notebooks on GitHub by clicking the .ipynb files — GitHub renders them read-only.
+
+Or use nbviewer: https://nbviewer.org/github/hemathens/kaggle-projects/blob/main/path/to/notebook.ipynb
+
+Or open in Colab (runs in browser):
+```
+https://colab.research.google.com/github/hemathens/kaggle-projects/blob/main/notebooks/your_notebook.ipynb
+```
+Replace notebooks/your_notebook.ipynb with the real path.
+
+### 3) Run locally (recommended for full control)
+
+**A. Create & activate a virtual environment**
+
+Linux / macOS (bash/zsh):
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+Windows (PowerShell):
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+Windows (CMD):
+```
+python -m venv .venv
+.\.venv\Scripts\activate.bat
+```
+
+**B. Install dependencies**
+
+If the repo includes requirements.txt:
+```
+pip install -r requirements.txt
+```
+If the repo includes environment.yml (conda):
+```
+conda env create -f environment.yml
+conda activate <env-name>
+```
+
+**C. Optional: make the venv available as a Jupyter kernel**
+```
+pip install ipykernel
+python -m ipykernel install --user --name=kaggle-projects-env --display-name "kaggle-projects-env"
+```
+Then pick this kernel inside Jupyter/Lab when opening notebooks.
+
+**D. Start JupyterLab (recommended) or Notebook**
+```
+jupyter lab
+# or
+jupyter notebook
+```
+Open the notebook file (for example notebooks/digits-prediction.ipynb) in the browser and run cells.
+
+**E. Kaggle dataset (if needed)**
+
+Install Kaggle CLI:
+```
+pip install kaggle
+```
+Place kaggle.json (your API token) in:
+-Linux/macOS: ~/.kaggle/kaggle.json (set permissions chmod 600 ~/.kaggle/kaggle.json)
+-Windows: %USERPROFILE%\.kaggle\kaggle.json
+Download dataset (example):
+```
+kaggle datasets download -d hemajitpatel/code-similarity-dataset-python-variants -p datasets/ --unzip
 ```
 
 ---
