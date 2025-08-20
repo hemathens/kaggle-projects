@@ -22,27 +22,9 @@ This repo showcases my journey and experiments in Machine Learning, Data Science
 | 5  | **Superheros Abilities Dataset** | Sample usage notebook for superheroes dataset    | [![Superheroes](https://img.shields.io/badge/-Superheroes-1abc9c?style=for-the-badge&logo=superuser&logoColor=white)](https://www.kaggle.com/code/hemajitpatel/superheros-abilities) |
 | 6  | **Rock vs Mine**                 | Predicts if an object is a rock or a mine using sonar data. | [![RvsM](https://img.shields.io/badge/-RvsM-ff3b30?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1yoUOlJD6ch8ZlxdqiLbBfI6iT6ozt-Al?usp=sharing) |
 
-
-
 ---
 
-## Datasets
-
-### 1. 🔗 [Code Similarity Dataset (Python Variants)](https://www.kaggle.com/datasets/hemajitpatel/code-similarity-dataset-python-variants)
-
-- **Description**: This dataset contains Python code variants with labels indicating similarity or difference, useful for training models in code comparison, plagiarism detection, and embeddings.
-- **Files**: `.csv` with `code1`, `code2`, `label` columns
-- **Use Case**: Code similarity models, Siamese Networks, NLP + CodeBERT experiments
-
-### 2. 🔗 [Superheroes Abilities Dataset](https://www.kaggle.com/datasets/hemajitpatel/superheros-abilities-dataset)
-
-- **Description**: Contains detailed profiles of superheroes including powers, stats, publisher, alignment, and more.
-- **Files**: `.csv` or `.xlsx` format
-- **Use Case**: EDA, visualization, classification models (e.g., predict alignment, power levels)
-
----
-
-## Notebook Details (ML-Engineer View)
+## Notebooks
 
 ---
 
@@ -217,6 +199,22 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 
 > 📁 Notebooks live inside `/notebooks/` and include well-commented, reproducible code.
 
+---
+
+## Datasets
+
+### 1. 🔗 [Code Similarity Dataset (Python Variants)](https://www.kaggle.com/datasets/hemajitpatel/code-similarity-dataset-python-variants)
+
+- **Description**: This dataset contains Python code variants with labels indicating similarity or difference, useful for training models in code comparison, plagiarism detection, and embeddings.
+- **Files**: `.csv` with `code1`, `code2`, `label` columns
+- **Use Case**: Code similarity models, Siamese Networks, NLP + CodeBERT experiments
+
+### 2. 🔗 [Superheroes Abilities Dataset](https://www.kaggle.com/datasets/hemajitpatel/superheros-abilities-dataset)
+
+- **Description**: Contains detailed profiles of superheroes including powers, stats, publisher, alignment, and more.
+- **Files**: `.csv` or `.xlsx` format
+- **Use Case**: EDA, visualization, classification models (e.g., predict alignment, power levels)
+- 
 ---
 
 ## 🔧 Technologies Used
