@@ -24,7 +24,7 @@ This repo showcases my journey and experiments in Machine Learning, Data Science
 
 ---
 
-## Notebooks
+## 📓 Notebooks
 
 ---
 
@@ -176,11 +176,11 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 )
 ```
 
-> 📁 Notebooks live inside `/notebooks/` and include well-commented, reproducible code.
+> Notebooks live inside `/notebooks/` and include well-commented, reproducible code.
 
 ---
 
-## Datasets
+## 📁 Datasets
 
 ### 1. 🔗 [Superheroes Abilities Dataset](https://www.kaggle.com/datasets/hemajitpatel/superheros-abilities-dataset)
  
@@ -374,7 +374,7 @@ kaggle datasets download -d hemajitpatel/code-similarity-dataset-python-variants
 
 ---
 
-## Licences
+## ⚖️ Licences
 
 These datasets are published under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** License.
 
