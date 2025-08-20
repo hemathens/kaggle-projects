@@ -13,7 +13,7 @@ This repo showcases my journey and experiments in Machine Learning, Data Science
 
 ## Projects
 
-| #  | Notebook                         | Description                                      | Link |
+| #  | IPYNBs                         | Description                                      | Link |
 |----|----------------------------------|--------------------------------------------------|------|
 | 1  | **Digits Prediction**            | Classify handwritten digits (MNIST).             | [![Digits](https://img.shields.io/badge/-Digits-7b61ff?style=for-the-badge&logo=python&logoColor=white)](https://www.kaggle.com/hemajitpatel/digits-prediction-hem) |
 | 2  | **House Price Prediction**       | Predict house prices with regression models.     | [![HousePrice](https://img.shields.io/badge/-HousePrice-00b894?style=for-the-badge&logo=googlecloud&logoColor=white)](https://www.kaggle.com/hemajitpatel/house-price-hem) |
@@ -146,28 +146,7 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 - Ensure stratified split by label.  
 
 
-### 5) Superheros Abilities Dataset  
-**File:** `superheros-abilities.ipynb`
-
-**What’s inside**
-- EDA: distribution of powers, missing data handling for free-text attributes.  
-- Feature engineering: converting textual powers into categorical features (one-hot or embeddings), aggregate scores (e.g., `power_score`).  
-- Experiments:
-  - **Clustering**: KMeans / HDBSCAN to discover archetypes.  
-  - **Classification / Regression**: predict alignment or power level using RandomForest / XGBoost.  
-  - **Dimensionality reduction**: PCA / t-SNE / UMAP for visualizations.  
-
-**How model is trained**
-- Supervised tasks: RandomForest / XGBoost with 5-fold CV.  
-- Clustering: hyperparameter sweep on `k` with silhouette scores / Davies-Bouldin index.  
-- Text features: simple TF-IDF → PCA, or embedding pipeline if needed.  
-
-**Data split**
-- Predictive tasks: `train_test_split(X, y, test_size=0.20, random_state=42)` → 80/20.  
-- Unsupervised tasks: use full dataset, with holdouts only for downstream validation.  
-
-
-### 6) Rock vs Mine (RvsM)  
+### 5) Rock vs Mine (RvsM)  
 **File:** `rock-vs-mine.ipynb` (Colab link available)
 
 **What’s inside**
@@ -203,18 +182,85 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 
 ## Datasets
 
-### 1. 🔗 [Code Similarity Dataset (Python Variants)](https://www.kaggle.com/datasets/hemajitpatel/code-similarity-dataset-python-variants)
+### 1. 🔗 [Superheroes Abilities Dataset](https://www.kaggle.com/datasets/hemajitpatel/superheros-abilities-dataset)
+ 
+**File:** `superheros-abilities.ipynb`
 
-- **Description**: This dataset contains Python code variants with labels indicating similarity or difference, useful for training models in code comparison, plagiarism detection, and embeddings.
-- **Files**: `.csv` with `code1`, `code2`, `label` columns
-- **Use Case**: Code similarity models, Siamese Networks, NLP + CodeBERT experiments
+**What’s inside**
+- EDA: distribution of powers, missing data handling for free-text attributes.  
+- Feature engineering: converting textual powers into categorical features (one-hot or embeddings), aggregate scores (e.g., `power_score`).  
+- Experiments:
+  - **Clustering**: KMeans / HDBSCAN to discover archetypes.  
+  - **Classification / Regression**: predict alignment or power level using RandomForest / XGBoost.  
+  - **Dimensionality reduction**: PCA / t-SNE / UMAP for visualizations.  
 
-### 2. 🔗 [Superheroes Abilities Dataset](https://www.kaggle.com/datasets/hemajitpatel/superheros-abilities-dataset)
+**How model is trained**
+- Supervised tasks: RandomForest / XGBoost with 5-fold CV.  
+- Clustering: hyperparameter sweep on `k` with silhouette scores / Davies-Bouldin index.  
+- Text features: simple TF-IDF → PCA, or embedding pipeline if needed.  
 
-- **Description**: Contains detailed profiles of superheroes including powers, stats, publisher, alignment, and more.
-- **Files**: `.csv` or `.xlsx` format
-- **Use Case**: EDA, visualization, classification models (e.g., predict alignment, power levels)
-- 
+**Data split**
+- Predictive tasks: `train_test_split(X, y, test_size=0.20, random_state=42)` → 80/20.  
+- Unsupervised tasks: use full dataset, with holdouts only for downstream validation.  
+
+### 2. 🔗 [Code Similarity Dataset — Python Variants](https://www.kaggle.com/datasets/hemajitpatel/code-similarity-dataset-python-variants) :contentReference[oaicite:0]{index=0}
+
+**File:** `code-variants.ipynb`
+
+**What’s inside**
+- Short description: A curated dataset of Python **code variants** / implementations of the same problems (useful for code-similarity and clone-detection tasks). The dataset page (linked above) contains the raw files and download instructions. :contentReference[oaicite:1]{index=1}  
+- Exploratory work included:
+  - File-level inventory (problem IDs, variant IDs, author/source if available).  
+  - EDA: distribution of variants per problem, average tokens/lines per snippet, common AST node frequencies, and common identifier name patterns.  
+  - Preprocessing steps: canonicalization (remove comments, normalize whitespace), identifier anonymization (optional), AST extraction, tokenization (subtoken / BPE), and optional bytecode/AST features.  
+  - Feature sets prepared:
+    - **Surface features**: token n-grams, token frequency (TF-IDF).  
+    - **Syntactic features**: AST node counts, AST-path features, control-flow signatures.  
+    - **Semantic embeddings**: CodeBERT / GraphCodeBERT / CodeT5 embeddings or custom trained token embeddings.  
+    - **Handcrafted features**: cyclomatic complexity, function length, number of unique identifiers, API usage vectors.  
+
+**Experiments included**
+- **Retrieval / Similarity baselines**
+  - TF-IDF (tokens) + Cosine similarity (fast baseline).  
+  - Token & AST n-gram overlap metrics (Jaccard).  
+- **Supervised / Pairwise models**
+  - Siamese networks (Bi-LSTM / Transformer encoder) trained with **contrastive loss** or **triplet loss** to learn similarity embeddings.  
+  - Binary classification on pairs (same-problem vs different-problem) using concatenated embeddings + feedforward head.  
+- **Pretrained transformer fine-tuning**
+  - Fine-tune CodeBERT / GraphCodeBERT with a classification head or siamese pooling for similarity scoring.  
+- **Graph neural model**
+  - AST → graph representation → GNN (GCN/GAT) for structural similarity experiments.  
+- **Evaluation / retrieval**
+  - k-NN retrieval (embedding index: FAISS), precision@k, mean reciprocal rank (MRR), MAP, ROC-AUC for binary pair classification.  
+- **Ablations**
+  - Tokenization schemes (raw tokens vs subtokens), identifier anonymization, impact of AST features vs token features, effect of negative sampling strategy.
+
+**How model is trained**
+- **Losses & Objectives**
+  - Contrastive loss: \(L = (1-y) \cdot \frac{1}{2}D^2 + y \cdot \frac{1}{2}\{\max(0, m-D)\}^2\) where \(D\) is embedding distance and \(m\) is margin (typical margin 0.5–1.0).  
+  - Triplet loss: semi-hard negative mining for robust embedding separation.  
+  - Binary cross-entropy for pair classification.  
+- **Architectures & settings**
+  - Transformer encoder (CodeBERT/CodeT5): `batch_size=16–64` (GPU permitting), `lr=1e-5–5e-5`, `epochs=3–10` (with early stopping).  
+  - Siamese Bi-LSTM / CNN: `batch_size=64`, `lr=1e-3` with `AdamW`.  
+  - GNN on AST: `learning_rate=1e-3`, `num_layers=2–4`, hidden dims `128–512`.  
+- **Regularization & tricks**
+  - Mixed positive/negative sampling per batch (balanced). Hard negative mining improves retrieval metrics.  
+  - Use `LayerNorm`, dropout (`0.1–0.3`), weight decay.  
+  - Use FAISS or Annoy for large-scale approximate nearest neighbor (ANN) retrieval in evaluation/deployment.  
+- **Hyperparameter tuning**
+  - Use `Optuna` / `RandomizedSearchCV` for head learning rate, margin, embedding dim, and number of negative samples per anchor.  
+- **Example training snippet (Siamese-style)**
+```py
+# pseudo-snippet
+for epoch in range(epochs):
+    for batch in dataloader:
+        emb_a = encoder(batch.code_a)
+        emb_b = encoder(batch.code_b)
+        loss = contrastive_loss(emb_a, emb_b, batch.label, margin=0.8)
+        loss.backward(); optimizer.step(); optimizer.zero_grad()
+```
+
 ---
 
 ## 🔧 Technologies Used
@@ -232,7 +278,7 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ```bash
 # Clone the repository
@@ -260,4 +306,4 @@ Under the following terms:
 
 - **Attribution** — You must give appropriate credit by linking to [my Kaggle profile](https://www.kaggle.com/hemajitpatel), provide a link to the license, and indicate if changes were made.
 
-Full License: https://creativecommons.org/licenses/by/4.0/
+Full License: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
