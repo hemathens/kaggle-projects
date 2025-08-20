@@ -15,12 +15,12 @@ This repo showcases my journey and experiments in Machine Learning, Data Science
 
 | #  | Notebook                         | Description                                      | Link |
 |----|----------------------------------|--------------------------------------------------|------|
-| 1  | **Digits Prediction**            | Classify handwritten digits (MNIST).             | [![Digits](https://img.shields.io/badge/-Digits-0f62fe?style=for-the-badge)](https://www.kaggle.com/hemajitpatel/digits-prediction-hem) |
-| 2  | **House Price Prediction**       | Predict house prices with regression models.     | [![HousePrice](https://img.shields.io/badge/-HousePrice-0f62fe?style=for-the-badge)](https://www.kaggle.com/hemajitpatel/house-price-hem) |
-| 3  | **Titanic Survival**             | Who survived the Titanic? Feature engineering + models. | [![Titanic](https://img.shields.io/badge/-Titanic-0f62fe?style=for-the-badge)](https://www.kaggle.com/hemajitpatel/titanic-hem) |
-| 4  | **Heads or Tails**               | Predict heads or tail from a section of an image | [![HeadsOrTails](https://img.shields.io/badge/-HeadsOrTails-0f62fe?style=for-the-badge)](https://www.kaggle.com/code/hemajitpatel/heads-or-tails-hem) |
-| 5  | **Superheros Abilities Dataset** | Sample usage notebook for superheroes dataset    | [![Superheroes](https://img.shields.io/badge/-Superheroes-0f62fe?style=for-the-badge)](https://www.kaggle.com/code/hemajitpatel/superheros-abilities) |
-| 6  | **Rock vs Mine**                 | Predicts if an object is a rock or a mine using sonar data. | [![RvsM](https://img.shields.io/badge/-RvsM-0f62fe?style=for-the-badge)](https://colab.research.google.com/drive/1yoUOlJD6ch8ZlxdqiLbBfI6iT6ozt-Al?usp=sharing) |
+| 1  | **Digits Prediction**            | Classify handwritten digits (MNIST).             | [![Digits](https://img.shields.io/badge/-Digits-7b61ff?style=for-the-badge&logo=python&logoColor=white)](https://www.kaggle.com/hemajitpatel/digits-prediction-hem) |
+| 2  | **House Price Prediction**       | Predict house prices with regression models.     | [![HousePrice](https://img.shields.io/badge/-HousePrice-00b894?style=for-the-badge&logo=googlecloud&logoColor=white)](https://www.kaggle.com/hemajitpatel/house-price-hem) |
+| 3  | **Titanic Survival**             | Who survived the Titanic? Feature engineering + models. | [![Titanic](https://img.shields.io/badge/-Titanic-0f4c81?style=for-the-badge&logo=gitlab&logoColor=white)](https://www.kaggle.com/hemajitpatel/titanic-hem) |
+| 4  | **Heads or Tails**               | Predict heads or tail from a section of an image | [![HeadsOrTails](https://img.shields.io/badge/-HeadsOrTails-ff7b00?style=for-the-badge&logo=opencv&logoColor=white)](https://www.kaggle.com/code/hemajitpatel/heads-or-tails-hem) |
+| 5  | **Superheros Abilities Dataset** | Sample usage notebook for superheroes dataset    | [![Superheroes](https://img.shields.io/badge/-Superheroes-1abc9c?style=for-the-badge&logo=superuser&logoColor=white)](https://www.kaggle.com/code/hemajitpatel/superheros-abilities) |
+| 6  | **Rock vs Mine**                 | Predicts if an object is a rock or a mine using sonar data. | [![RvsM](https://img.shields.io/badge/-RvsM-ff3b30?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1yoUOlJD6ch8ZlxdqiLbBfI6iT6ozt-Al?usp=sharing) |
 
 
 
